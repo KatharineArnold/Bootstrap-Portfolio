@@ -1,7 +1,3 @@
-* {
-    box-sizing: border-box;
-    
-}
 
 .nav-item a{
     color:  #777777;
@@ -9,7 +5,7 @@
 }
 
 
-.nav-item a:visited {
+ .nav-item a:visited {
     text-decoration: none;
     color:  #777777;
 }
@@ -19,34 +15,23 @@
     text-shadow: 0 0 .9px #333, 0 0 .9px #333, 0 0 .9px #333;
 }
 
-.navbar-brand{
+.navbar-text{
     font-family:'Georgia', Times, Times New Roman, serif;
     background-color: #4aaaa5;
     color: white;
-    font-size: 30px;
-    /* width:30%; */
-    /* padding: 15px;
-    float: left; */
+ 
+
 }
 
-.navbar{
-    width: 960px;
-    height: 90px;
-    /* margin-left: auto;
-    margin-right: auto; */
-} 
 
 .nav {
     list-style-type: none;
-    float: right;
     padding-top: 30px;  
 } 
 
 .nav-item{
-    display: inline-block;
     border-right:solid 1px #777777;
-    padding-right: 12px;
-    padding-left: 12px;
+
     font-size: 15px;
   
 } 
@@ -57,14 +42,16 @@
 
 .white{
     background-color: #ffffff;
-    width: 960px;
+ 
 }
 
 .container-fluid{
-    height: 100%;
-    position: absolute;
+    height: 100vh;
     background-image: url("../images/light-grey-terrazzo.png");
     border: 3px solid #dddddd;
+    overflow: auto;
+    /* position: absolute; */
+    
 }
 
 .page-header{
@@ -78,4 +65,8 @@ p{
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     line-height: 25px
 } 
+ 
 
+
+
+ 
