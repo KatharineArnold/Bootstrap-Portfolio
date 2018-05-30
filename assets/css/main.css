@@ -1,47 +1,35 @@
 
-.nav-item a{
-    color:  #777777;
-    text-decoration: none;
+* {
+    box-sizing: border-box;
+    
+}
+img {
+width: 100%;
+margin-bottom: 2vh;
+height: auto;
 }
 
 
- .nav-item a:visited {
-    text-decoration: none;
-    color:  #777777;
-}
-
-.nav-item a:hover{
-    color: #4aaaa5;
-    text-shadow: 0 0 .9px #333, 0 0 .9px #333, 0 0 .9px #333;
-}
-
-.navbar-text{
-    font-family:'Georgia', Times, Times New Roman, serif;
-    background-color: #4aaaa5;
-    color: white;
- 
-
-}
-
-
-.nav {
-    list-style-type: none;
-    padding-top: 30px;  
-} 
-
-.nav-item{
-    border-right:solid 1px #777777;
-
-    font-size: 15px;
-  
+.nav-container{
+    max-width: 960px;
+    width: 100%;
+    height: 90px;
+    margin-left: auto;
+    margin-right: auto;
 } 
 
 
-
-
+ .left{
+    float: left;
+    height: 250px;
+    width: 200px;
+    padding-right: 20px;
+}
 
 .white{
     background-color: #ffffff;
+    margin-top: 5vh;
+    margin-left: 5vh;
  
 }
 
@@ -50,14 +38,13 @@
     background-image: url("../images/light-grey-terrazzo.png");
     border: 3px solid #dddddd;
     overflow: auto;
-    /* position: absolute; */
     
 }
 
 .page-header{
     color: #4aaaa5;
     border-bottom: 3px solid #dddddd; 
-    font-size: 30px;
+    /* font-size: 2vh; */
 }
 
 p{
@@ -67,6 +54,128 @@ p{
 } 
  
 
-
-
+ul {
+    list-style-type: none;
+    float: right;
+    padding-top: 30px;
+    
  
+    
+} 
+
+
+a:link{
+    color:  #777777;
+    text-decoration: none;
+    
+}
+
+a:visited {
+    text-decoration: none;
+    color:  #777777;
+}
+
+a:hover{
+    color: #4aaaa5;
+    text-shadow: 0 0 .9px #333, 0 0 .9px #333, 0 0 .9px #333;
+}
+
+.nav-item{
+     color:  #777777; 
+   
+}
+
+
+
+li{
+    display: inline-block;
+    border-right:solid 1px #777777;
+    padding-right: 12px;
+    padding-left: 12px;
+    font-size: 15px;
+  
+} 
+
+
+h1{
+    background-color: #4aaaa5;
+    color: white;
+    font-size: 4vmin;
+    width:30%;
+    padding: 15px;
+    float: left;
+    white-space: nowrap;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+}
+
+
+
+.card-pic{
+   width: 100%;
+} 
+
+ .card-description{
+  
+    width:100%; 
+    background-color: #4aaaa5;
+    color: white;
+    position: relative;
+    bottom: 80px;
+    text-align: center; 
+    font-size: 4vh;
+    display: inline-block;
+    
+} 
+
+h1, h2, h3{
+    font-family: 'Georgia', Times, Times New Roman, serif;
+ }
+
+
+
+
+
+
+label {
+    display: block;
+    width: 100%;
+    padding-top: 25px;
+    padding-bottom: 5px;
+    text-align: left;
+    font-size: 25px;
+    border-radius: 3px;
+    color: #777777;
+   
+  
+    
+  } 
+  input {
+    display: block;
+    width: 100%;
+    padding: 15px;
+    font-size: 16px;
+    height: 50px;
+  }
+
+  .button{
+    background-color: #4aaaa5;
+    color: white;
+    height: 40px;
+    width: 90px;
+    font-size: 20px;
+    margin-top: 5px;
+  } 
+
+
+  .message textarea{
+      height: 30vh;
+  }
+
+  .form-group{
+      padding-right: 5vh;
+  }
+
+
+
